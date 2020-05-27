@@ -1,0 +1,28 @@
+<layouts>
+    <layout id="MainLayout">
+        <drawable class="Background" />
+	    <drawable id="rectangle"/>
+        <label id="time" x="120" y="5" color="Graphics.COLOR_YELLOW" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_SMALL" text="23:59" />
+        <label id="battery" x="120" y="209" color="Graphics.COLOR_YELLOW" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" text="34.4%" />
+
+        <label id="lml" x="55" y="20" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_XTINY" text="spd" />
+        <label id="vml" x="120" y="50" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_NUMBER_MEDIUM" />
+        <label id="lbr" x="185" y="20" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_XTINY" text="hrt" />
+        <label id="vbr" x="207" y="50" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_NUMBER_MEDIUM" />
+
+        <label id="lbl" x="55" y="90" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_XTINY" text="pwr" />
+        <label id="vbl" x="120" y="120" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_NUMBER_MILD" />
+        <label id="lmr" x="185" y="90" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_XTINY" text="cad" />
+        <label id="vmr" x="207" y="120" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_NUMBER_MILD" />
+
+        <label id="ltl" x="55" y="148" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_XTINY" text="elt" />
+        <label id="vtl" x="120" y="173" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_SMALL" />
+        <label id="ltr" x="185" y="148" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_XTINY" text="dst" />
+        <label id="vtr" x="207" y="173" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_SMALL" />
+    </layout>
+    <layout id="SingleValueLayout">
+        <drawable class="Background" />
+        <label id="label" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" text="spd" />
+        <label id="value" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_NUMBER_MILD" />
+    </layout>
+</layouts>

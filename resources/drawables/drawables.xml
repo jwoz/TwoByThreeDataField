@@ -1,0 +1,6 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="rectangle" foreground="Gfx.COLOR_BLUE">
+        <shape type="rectangle" x="130" y="40" width="1" height="160"/>
+    </drawable-list>
+</drawables>
